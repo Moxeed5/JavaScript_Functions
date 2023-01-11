@@ -131,7 +131,7 @@ function cellPhonePlan(planLimit, day, usage)
     {
         console.log(`As a reminder, your plan allows you up to ${averageUsage} Gb's of data per day.`);
         console.log(`You will lose ${underBy} Gb's of data by the end of the month if you do not use it.`)
-        console.log(`You can increase your daily usage by ${increaseBy} Gb's.`)
+        console.log(`You can increase your daily usage by ${increaseBy} Gb's for the remainder of the month.`)
 
     }
     else{
